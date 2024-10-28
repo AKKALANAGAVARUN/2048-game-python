@@ -20,4 +20,3 @@ Here are three points you can include in your resume for the 2048 game project:
 
 3. **Enhanced User Engagement through Visual Aesthetics**: Leveraged a color-coded grid system to provide visual feedback for tile values, employing industry-standard design principles to improve usability. Integrated dynamic score tracking and game-over notifications to create an immersive and rewarding user interface.
 
-Feel free to adjust the wording as needed!
