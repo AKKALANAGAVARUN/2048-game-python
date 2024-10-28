@@ -20,3 +20,51 @@ Here are three points you can include in your resume for the 2048 game project:
 
 3. **Enhanced User Engagement through Visual Aesthetics**: Leveraged a color-coded grid system to provide visual feedback for tile values, employing industry-standard design principles to improve usability. Integrated dynamic score tracking and game-over notifications to create an immersive and rewarding user interface.
 
+Steps:
+Setting Up the Game Class:
+
+    Created a Game class that inherits from tk.Frame, setting up the GUI framework.
+
+Color and Font Definitions:
+
+    Defined color schemes and fonts for the game interface and cells, enhancing the visual appeal.
+
+Grid Initialization:
+
+    Created a 4x4 grid using frames for each cell and labels to display the numbers, implementing a structured layout.
+
+Scoreboard Creation:
+
+    Added a scoreboard at the top to display the current score, making it easy for players to keep track.
+
+Game Start Logic:
+
+    Initialized a matrix to represent the game state and placed two '2' tiles randomly at the start.
+
+Matrix Manipulation Functions:
+
+    Implemented methods to manipulate the game matrix (stacking, combining, reversing, and transposing), essential for handling player moves.
+
+Adding New Tiles:
+
+    Created a method to randomly add new tiles (either 2 or 4) to the grid after each move.
+
+Updating the GUI:
+
+    Designed a method to update the visual representation of the game grid based on the matrix state.
+
+Event Handling for Moves:
+
+    Bound arrow key presses to functions that handle player input and invoke matrix manipulation.
+
+Move Validity Checks:
+
+    Implemented checks to determine if any moves are still possible, both horizontally and vertically.
+
+Game Over Conditions:
+
+    Added logic to check for win (2048 tile) or lose conditions and display appropriate messages to the user.
+
+Main Function:
+
+    Set up the main function to instantiate the Game class, effectively starting the game.
